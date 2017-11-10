@@ -1,9 +1,14 @@
-function saludar(nombre:string){
-  console.log ("Hola"+nombre);
-
+let nombre:string = "Peter";
+let numero:number=123;
+let booleano:boolean=true;
+let hoy:Date=new Date();
+hoy= new DATE('2020-10-21');
+let caualquiera:any;
+let spiderman={
+  nombre:"peter",
+  edad:20
 }
-var wolverine= {
-  nombre:"Logan"
-};
-
-saludar(wolverine.nombre.toUpperCase());
+spiderman={
+  nombre: "juan",
+  edad:30
+}
